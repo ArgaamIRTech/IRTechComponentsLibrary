@@ -1,0 +1,11 @@
+.latest-info {
+  border-bottom: 2px solid #ddd;
+  padding: 10px 0;
+}
+.latest-news .latest-info button {
+  background: #b8c9d1;
+  border: none;
+  padding: 0px 15px;
+  color: var(--text-color);
+  margin-bottom: 20px;
+}

@@ -1,0 +1,20 @@
+.calender .year-info h6 {
+  font-size: 25px;
+  font-weight: 700;
+  margin: 0 15px 5px 0px;
+  color: var(--first-color);
+}
+.calender-body h5 {
+  text-transform: uppercase;
+  color: var(--text-color);
+}
+.calender-body p {
+  color: var(--text-color);
+  font-size: 14px;
+  line-height: 1.8;
+}
+.calender-body button {
+  border: none;
+  background: #b8c9d1;
+  font-size: 13px;
+}

@@ -1,0 +1,19 @@
+.dynamic-title h1 {
+  color: var(--title-color);
+  font-weight: 700;
+}
+.dynamic-title span {
+  font-size: 30px;
+  color: var(--title-color);
+  font-weight: 700;
+}
+
+@media (max-width: 759.98px) {
+  .dynamic-title h1 {
+    font-size: 20px;
+  }
+  .dynamic-title span {
+    font-size: 17px;
+    margin-left: 10px !important;
+  }
+}

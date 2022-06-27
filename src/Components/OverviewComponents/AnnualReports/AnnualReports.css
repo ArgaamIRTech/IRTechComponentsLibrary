@@ -1,0 +1,8 @@
+.annual-reports i {
+  color: var(--first-color);
+  font-weight: 700;
+  font-size: 20px;
+}
+.dw-icon i {
+  cursor: pointer;
+}

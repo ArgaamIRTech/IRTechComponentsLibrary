@@ -1,0 +1,19 @@
+/* ==  Start Globle Style == */
+:root {
+  --first-color: #90ad90;
+  --title-color: #41644d;
+  --text-color: #646263;
+  --bg-sections: #f9f8f8;
+}
+* {
+  font-family: "Cairo", sans-serif;
+}
+.main-title h2 {
+  text-transform: uppercase;
+  color: var(--title-color);
+  font-weight: 700;
+  padding: 10px 0;
+}
+.bg-sections {
+  background: var(--bg-sections);
+}

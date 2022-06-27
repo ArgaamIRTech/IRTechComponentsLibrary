@@ -1,0 +1,13 @@
+.corporate-actions .nav-tabs .nav-link {
+  color: #a0979b;
+  margin: 0 10px 0 0;
+  border: none !important;
+  font-size: 18px;
+  font-weight: 700;
+}
+.corporate-actions .nav-link.active,
+.corporate-actions .nav-link:hover {
+  background: transparent !important;
+  color: var(--text-color) !important;
+  border-bottom: 3px solid var(--first-color) !important;
+}

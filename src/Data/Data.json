@@ -1,0 +1,71 @@
+{
+  "calender": [
+    {
+      "id": 1,
+      "title": "Calender Assembly 1",
+      "desc": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer below as a natural lead-in.",
+      "day": 29,
+      "month": "Apr",
+      "year": 2021
+    },
+    {
+      "id": 2,
+      "title": "Calender Assembly 2",
+      "desc": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit",
+      "day": 25,
+      "month": "Oct",
+      "year": 2019
+    }
+  ],
+
+  "financialRatios": [
+    {
+      "id": 1,
+      "title": "Financial Ratio",
+      "current": "current"
+    },
+    {
+      "id": 2,
+      "title": "Market Cap",
+      "current": "7,404.00"
+    },
+    {
+      "id": 3,
+      "title": "Shares Outstanding",
+      "current": "60.00"
+    },
+    {
+      "id": 4,
+      "title": "EPS ( Riyal ) ( ITM )",
+      "current": "5.44"
+    },
+    {
+      "id": 5,
+      "title": "Price Book",
+      "current": "9.48"
+    }
+  ],
+
+  "latestNews": [
+    {
+      "id": 1,
+      "info": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit",
+      "smallTitle": "Argaam . 26 May 2021"
+    },
+    {
+      "id": 2,
+      "info": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit",
+      "smallTitle": "Argaam . 28 Oct 2022"
+    },
+    {
+      "id": 3,
+      "info": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit",
+      "smallTitle": "Argaam . 14 Nov 2020"
+    },
+    {
+      "id": 4,
+      "info": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit",
+      "smallTitle": "Argaam . 16 May 2021"
+    }
+  ]
+}

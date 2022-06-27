@@ -1,0 +1,23 @@
+.market-value h2 {
+  color: var(--title-color);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.market-value .total-num {
+  color: var(--text-color);
+  font-size: 25px;
+  font-weight: 700;
+  position: relative;
+  left: -10%;
+}
+.market-value .t-title {
+  color: var(--text-color);
+}
+.change {
+  color: #4e7e5e !important;
+  font-weight: bold;
+}
+.market-value .t-num {
+  color: var(--title-color);
+  font-weight: 700;
+}

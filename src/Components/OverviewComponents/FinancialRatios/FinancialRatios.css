@@ -1,0 +1,7 @@
+.financial-ratios .financial-info {
+  border-bottom: 2px solid #ddd;
+  margin-bottom: 5px;
+}
+.financial-ratios .ratios-title {
+  color: var(--title-color);
+}
