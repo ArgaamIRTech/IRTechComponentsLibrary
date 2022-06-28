@@ -1,17 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 // Import Css File
 import "./FinancialRatios.css";
 // Import Data Json
 import jsonData from "../../../Data/Data.json";
 
 const FinancialRatios = () => {
+  const [financialRatios] = useState(jsonData.financialRatios);
+
   return (
     <div className="financial-ratios">
       <div className="main-title">
         <h2>Financial Ratios</h2>
       </div>
 
-      {jsonData.financialRatios.map((item) => {
+      {financialRatios.map((item) => {
         return (
           <div
             key={item.id}

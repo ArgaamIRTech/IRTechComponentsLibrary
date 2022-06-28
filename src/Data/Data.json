@@ -1,4 +1,26 @@
 {
+  "marketValue": [
+    {
+      "id": 1,
+      "volume": "11.264",
+      "turnover": "11015",
+      "transactions": "215.667",
+      "open": "210.5",
+      "low": "66258",
+      "high": "1015.99",
+      "averageVolume": "22658.14",
+      "averageTurnover": "335.214",
+      "averageTransactions": "568.214",
+      "lastTrade": "114768.22",
+      "prevClose": "1069.25",
+      "emptyRow": "256.225",
+      "month3": "15.66%",
+      "month6": "N/A",
+      "month12": "N/A",
+      "year": "N/A"
+    }
+  ],
+
   "calender": [
     {
       "id": 1,
@@ -66,6 +88,29 @@
       "id": 4,
       "info": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit",
       "smallTitle": "Argaam . 16 May 2021"
+    }
+  ],
+
+  "analystEstimates": [
+    {
+      "id": 1,
+      "info": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit",
+      "smallTitle": "Argaam . 1 May 2021"
+    },
+    {
+      "id": 2,
+      "info": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit",
+      "smallTitle": "Argaam . 2 Oct 2022"
+    },
+    {
+      "id": 3,
+      "info": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit",
+      "smallTitle": "Argaam . 3 Nov 2020"
+    },
+    {
+      "id": 4,
+      "info": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit",
+      "smallTitle": "Argaam . 4 May 2021"
     }
   ]
 }

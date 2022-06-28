@@ -10,6 +10,7 @@ import FinancialRatios from "../../Components/OverviewComponents/FinancialRatios
 import CorporateActions from "../../Components/OverviewComponents/CorporateActions/CorporateActions";
 import LatestNews from "../../Components/OverviewComponents/LatestNews/LatestNews";
 import Contact from "../../Components/OverviewComponents/Contact/Contact";
+import AnalystEstimates from "../../Components/OverviewComponents/AnalystEstimates/AnalystEstimates";
 
 const Overview = () => {
   // Page Header Title & Info
@@ -57,11 +58,15 @@ const Overview = () => {
         {/* Start section-3 */}
         <div className="py-4">
           <div className="row">
-            <div className="col-lg-7 col-md-6 bg-sections">
-              <FinancialRatios />
+            <div className="col-lg-8 col-md-6">
+              <div className="bg-sections">
+                <FinancialRatios />
+              </div>
             </div>
-            <div className="col-lg-5 col-md-6 bg-sections">
-              <CorporateActions />
+            <div className="col-lg-4 col-md-6 bg-sections">
+              <div className="bg-sections">
+                <CorporateActions />
+              </div>
             </div>
           </div>
         </div>
@@ -69,14 +74,14 @@ const Overview = () => {
 
         {/* Start Section 4 */}
         <div className="py-4">
-          <div className="row gap-lg-2">
+          <div className="row gap-lg-3">
             <div className="col-md-4 bg-sections">
-              <LatestNews sectionTitle="Latest News" />
+              <LatestNews />
             </div>
             <div className="col-md-4 bg-sections">
-              <LatestNews sectionTitle="Analyst Estimates" />
+              <AnalystEstimates />
             </div>
-            <div className="col-md-3 text-center">
+            <div className="col-md-3">
               <Contact />
             </div>
           </div>

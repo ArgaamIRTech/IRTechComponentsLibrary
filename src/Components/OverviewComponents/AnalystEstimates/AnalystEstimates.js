@@ -1,19 +1,19 @@
 import React, { useState } from "react";
 // Import Css File
-import "./LatestNews.css";
+import "../LatestNews/LatestNews.css";
 // Import Data Json
 import jsonData from "../../../Data/Data.json";
 
-const LatestNews = () => {
-  const [latestNews] = useState(jsonData.latestNews);
+const AnalystEstimates = () => {
+  const [analystEstimates] = useState(jsonData.analystEstimates);
 
   return (
     <div className="latest-news">
       <div className="main-title">
-        <h2>Latest News</h2>
+        <h2>Analyst Estimates</h2>
       </div>
 
-      {latestNews.map((item) => {
+      {analystEstimates.map((item) => {
         return (
           <div className="latest-info" key={item.id}>
             <p className="text-muted">{item.info}</p>
@@ -28,4 +28,4 @@ const LatestNews = () => {
   );
 };
 
-export default LatestNews;
+export default AnalystEstimates;
